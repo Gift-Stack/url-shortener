@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <title>theURLshortener</title>
+    </head>
+    <body class="container bg-light text-center">
+        <nav class="navbar navbar-light bg-light d-flex align-items-center">
+            <h1 class="navbar-brand text-muted">URL Shortener</h1>
+            <i class="fab fa-github"></i>
+        </nav>
+        <h3 class="text-muted">Hit your Endpoint</h3>
+        <div id="demo"></div>
+        <form class="form-group d-flex">
+            <input
+                type="text"
+                placeholder="URL to shorten goes here"
+                id="input"
+                class="form-control mr-1"
+            />
+            <input type="button" value="Shorten" class="btn btn-success ml-1" />
+        </form>
+    </body>
+</html>
